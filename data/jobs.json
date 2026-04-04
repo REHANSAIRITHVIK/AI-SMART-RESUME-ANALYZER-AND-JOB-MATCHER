@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Software Engineer",
+    "company": "Google",
+    "skills": ["python", "flask", "sql"],
+    "salary": "₹12 LPA",
+    "ctc": "₹15 LPA",
+    "vacancies": 5
+  },
+  {
+    "title": "Data Analyst",
+    "company": "Amazon",
+    "skills": ["python", "excel", "sql"],
+    "salary": "₹10 LPA",
+    "ctc": "₹12 LPA",
+    "vacancies": 4
+  },
+  {
+    "title": "Cyber Security Analyst",
+    "company": "Infosys",
+    "skills": ["networking", "security", "linux"],
+    "salary": "₹8 LPA",
+    "ctc": "₹10 LPA",
+    "vacancies": 3
+  },
+  {
+    "title": "Cloud Engineer",
+    "company": "TCS",
+    "skills": ["aws", "azure", "cloud"],
+    "salary": "₹9 LPA",
+    "ctc": "₹11 LPA",
+    "vacancies": 6
+  },
+  {
+    "title": "AI Engineer",
+    "company": "Microsoft",
+    "skills": ["python", "ml", "ai"],
+    "salary": "₹14 LPA",
+    "ctc": "₹18 LPA",
+    "vacancies": 3
+  },
+  {
+    "title": "ML Engineer",
+    "company": "IBM",
+    "skills": ["python", "ml", "tensorflow"],
+    "salary": "₹13 LPA",
+    "ctc": "₹16 LPA",
+    "vacancies": 2
+  },
+  {
+    "title": "Backend Developer",
+    "company": "Oracle",
+    "skills": ["python", "flask", "api"],
+    "salary": "₹11 LPA",
+    "ctc": "₹14 LPA",
+    "vacancies": 5
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Adobe",
+    "skills": ["html", "css", "js"],
+    "salary": "₹9 LPA",
+    "ctc": "₹11 LPA",
+    "vacancies": 4
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Accenture",
+    "skills": ["html", "css", "js", "python"],
+    "salary": "₹10 LPA",
+    "ctc": "₹13 LPA",
+    "vacancies": 5
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "Capgemini",
+    "skills": ["docker", "kubernetes", "aws"],
+    "salary": "₹11 LPA",
+    "ctc": "₹14 LPA",
+    "vacancies": 3
+  },
+  {
+    "title": "Product Manager",
+    "company": "Deloitte",
+    "skills": ["management", "agile"],
+    "salary": "₹15 LPA",
+    "ctc": "₹20 LPA",
+    "vacancies": 2
+  },
+  {
+    "title": "UI/UX Designer",
+    "company": "Zoho",
+    "skills": ["design", "figma"],
+    "salary": "₹8 LPA",
+    "ctc": "₹10 LPA",
+    "vacancies": 3
+  },
+  {
+    "title": "Database Administrator",
+    "company": "SAP",
+    "skills": ["sql", "database"],
+    "salary": "₹10 LPA",
+    "ctc": "₹13 LPA",
+    "vacancies": 2
+  },
+  {
+    "title": "Network Engineer",
+    "company": "HCL",
+    "skills": ["networking", "routers"],
+    "salary": "₹7 LPA",
+    "ctc": "₹9 LPA",
+    "vacancies": 4
+  },
+  {
+    "title": "QA Tester",
+    "company": "Wipro",
+    "skills": ["testing", "automation"],
+    "salary": "₹6 LPA",
+    "ctc": "₹8 LPA",
+    "vacancies": 5
+  },
+  {
+    "title": "Mobile App Developer",
+    "company": "Flipkart",
+    "skills": ["android", "flutter"],
+    "salary": "₹11 LPA",
+    "ctc": "₹14 LPA",
+    "vacancies": 3
+  },
+  {
+    "title": "Blockchain Developer",
+    "company": "Paytm",
+    "skills": ["blockchain", "solidity"],
+    "salary": "₹12 LPA",
+    "ctc": "₹16 LPA",
+    "vacancies": 2
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Salesforce",
+    "skills": ["python", "ml", "statistics"],
+    "salary": "₹14 LPA",
+    "ctc": "₹18 LPA",
+    "vacancies": 3
+  },
+  {
+    "title": "System Administrator",
+    "company": "Tech Mahindra",
+    "skills": ["linux", "server"],
+    "salary": "₹7 LPA",
+    "ctc": "₹9 LPA",
+    "vacancies": 4
+  },
+  {
+    "title": "IT Support Engineer",
+    "company": "Cognizant",
+    "skills": ["support", "network"],
+    "salary": "₹6 LPA",
+    "ctc": "₹8 LPA",
+    "vacancies": 6
+  }
+]

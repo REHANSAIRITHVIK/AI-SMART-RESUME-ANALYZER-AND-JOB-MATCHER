@@ -1,0 +1,22 @@
+[
+  {"name": "Google", "industry": "Technology", "location": "Bangalore", "logo": "google.png"},
+  {"name": "Amazon", "industry": "E-commerce", "location": "Hyderabad", "logo": "amazon.png"},
+  {"name": "Infosys", "industry": "IT Services", "location": "Bangalore", "logo": "infosys.png"},
+  {"name": "TCS", "industry": "IT Services", "location": "Mumbai", "logo": "tcs.png"},
+  {"name": "Wipro", "industry": "IT Services", "location": "Bangalore", "logo": "wipro.png"},
+  {"name": "Accenture", "industry": "Consulting", "location": "Pune", "logo": "accenture.png"},
+  {"name": "Adobe", "industry": "Software", "location": "Noida", "logo": "adobe.png"},
+  {"name": "Microsoft", "industry": "Technology", "location": "Hyderabad", "logo": "microsoft.png"},
+  {"name": "IBM", "industry": "Technology", "location": "Bangalore", "logo": "ibm.png"},
+  {"name": "Oracle", "industry": "Database", "location": "Hyderabad", "logo": "oracle.png"},
+  {"name": "Capgemini", "industry": "Consulting", "location": "Pune", "logo": "capgemini.png"},
+  {"name": "Deloitte", "industry": "Consulting", "location": "Gurgaon", "logo": "deloitte.png"},
+  {"name": "Cognizant", "industry": "IT Services", "location": "Chennai", "logo": "cognizant.png"},
+  {"name": "HCL", "industry": "IT Services", "location": "Noida", "logo": "hcl.png"},
+  {"name": "Tech Mahindra", "industry": "IT Services", "location": "Pune", "logo": "techmahindra.png"},
+  {"name": "Zoho", "industry": "Software", "location": "Chennai", "logo": "zoho.png"},
+  {"name": "Flipkart", "industry": "E-commerce", "location": "Bangalore", "logo": "flipkart.png"},
+  {"name": "Paytm", "industry": "Fintech", "location": "Noida", "logo": "paytm.png"},
+  {"name": "Salesforce", "industry": "Cloud", "location": "Hyderabad", "logo": "salesforce.png"},
+  {"name": "SAP", "industry": "Enterprise Software", "location": "Bangalore", "logo": "sap.png"}
+]

@@ -1,0 +1,161 @@
+/* ===== GLOBAL ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2, #ff6ec4);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    color: white;
+}
+
+/* Animated Background */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 6px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateX(6px);
+}
+
+/* ===== CONTENT ===== */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* ===== CARDS ===== */
+.card {
+    background: rgba(255,255,255,0.15);
+    border-radius: 18px;
+    border: none;
+    backdrop-filter: blur(12px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+/* ===== BUTTONS ===== */
+.btn-custom {
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* ===== INPUTS ===== */
+.form-control {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #ddd;
+}
+
+.form-control:focus {
+    background: rgba(255,255,255,0.3);
+    box-shadow: none;
+}
+
+/* ===== PROGRESS BAR ===== */
+.progress {
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #00ffcc, #00ccff);
+}
+
+/* ===== BADGES ===== */
+.badge {
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+/* ===== COMPANY LOGOS ===== */
+.company-logo {
+    height: 60px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.company-logo:hover {
+    transform: scale(1.1);
+}
+
+/* ===== TABLE ===== */
+.table {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background: rgba(255,255,255,0.2);
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff6ec4;
+    border-radius: 10px;
+}
+
+/* ===== ANIMATIONS ===== */
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}

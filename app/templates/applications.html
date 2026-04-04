@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2 class="mb-4">📋 Application Tracker</h2>
+
+<div class="card p-4">
+    <table class="table text-white text-center">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>CTC</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for app in applications %}
+            <tr>
+                <td>{{ app.company }}</td>
+                <td>{{ app.role }}</td>
+
+                <td>
+                    {% if app.status == "Applied" %}
+                        <span class="badge bg-warning">Applied</span>
+                    {% elif app.status == "Interview" %}
+                        <span class="badge bg-info">Interview</span>
+                    {% elif app.status == "Selected" %}
+                        <span class="badge bg-success">Selected</span>
+                    {% else %}
+                        <span class="badge bg-danger">Rejected</span>
+                    {% endif %}
+                </td>
+
+                <td>{{ app.ctc }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

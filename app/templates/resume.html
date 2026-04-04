@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2 class="mb-4">📄 Resume Analyzer</h2>
+
+<div class="card p-4 mb-4">
+    <h4>Upload Resume for AI Analysis</h4>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="resume" class="form-control mb-3" required>
+
+        <button class="btn btn-custom">Analyze Resume</button>
+    </form>
+</div>
+
+{% if skills %}
+<div class="card p-4 mb-4">
+    <h4>🧠 Extracted Skills</h4>
+
+    <div>
+        {% for skill in skills %}
+        <span class="badge bg-info text-dark m-1 p-2">{{ skill }}</span>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% if matched_jobs %}
+<div class="card p-4">
+    <h4>🎯 Recommended Jobs</h4>
+
+    <div class="row">
+        {% for job in matched_jobs %}
+        <div class="col-md-4 mt-3">
+            <div class="card p-3">
+
+                <h5>{{ job.title }}</h5>
+                <p><strong>{{ job.company }}</strong></p>
+
+                <p>💰 {{ job.salary }}</p>
+                <p>📊 {{ job.ctc }}</p>
+
+                <div class="progress mb-2" style="height:8px;">
+                    <div class="progress-bar bg-success" style="width: {{ job.match }}%"></div>
+                </div>
+                <small>Match: {{ job.match }}%</small>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}

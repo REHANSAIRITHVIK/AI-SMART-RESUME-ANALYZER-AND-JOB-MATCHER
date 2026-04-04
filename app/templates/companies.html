@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2 class="mb-4">🏢 Top Companies</h2>
+
+<div class="row">
+    {% for company in companies %}
+    <div class="col-md-3 mt-3">
+        <div class="card p-3 text-center">
+
+            <img src="{{ url_for('static', filename='images/companies/' + company.logo) }}" 
+                 style="height:60px; object-fit:contain;" class="mb-2">
+
+            <h5>{{ company.name }}</h5>
+            <p>{{ company.industry }}</p>
+            <small>{{ company.location }}</small>
+
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

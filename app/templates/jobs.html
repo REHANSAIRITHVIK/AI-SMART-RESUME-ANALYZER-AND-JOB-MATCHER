@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2 class="mb-4">💼 Job Opportunities</h2>
+
+<div class="row">
+    {% for job in jobs %}
+    <div class="col-md-3 mt-3">
+        <div class="card p-3 text-center">
+
+            <h5>{{ job.title }}</h5>
+            <p><strong>{{ job.company }}</strong></p>
+
+            <p>💰 Salary: {{ job.salary }}</p>
+            <p>📊 CTC: {{ job.ctc }}</p>
+            <p>👥 {{ job.vacancies }} Vacancies</p>
+
+            {% if job.match %}
+            <div class="progress mb-2" style="height:8px;">
+                <div class="progress-bar bg-success" style="width: {{ job.match }}%"></div>
+            </div>
+            <small>Match: {{ job.match }}%</small>
+            {% endif %}
+
+            <form method="POST" action="/apply">
+    <input type="hidden" name="company" value="{{ job.company }}">
+    <input type="hidden" name="role" value="{{ job.title }}">
+    <input type="hidden" name="ctc" value="{{ job.ctc }}">
+
+    <button class="btn btn-custom mt-2">Apply</button>
+</form>
+
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
