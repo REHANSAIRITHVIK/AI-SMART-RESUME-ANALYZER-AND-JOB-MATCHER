@@ -197,7 +197,7 @@ Internship projects
 
 🔗 Live Demo
 
-Check out the live application here: 
+Check out the live application here: https://ai-smart-resume-analyzer-and-job-ma-six.vercel.app/
 
 
 🧑‍💻 Developed By 
